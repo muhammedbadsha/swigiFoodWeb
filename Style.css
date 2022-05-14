@@ -1,0 +1,53 @@
+img.slide{
+    height: 650px;
+}
+.icone-swiggy{
+    width: 4em;
+    height: 3em;
+}
+.card-images{
+    width: 100%;
+    height: 60%;
+
+}
+.swiggy{
+    color: orange;
+}
+.map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  #map-container-google-1 li{
+      list-style-type: none;
+      text-align:bottom;
+  }
+  #map-container-google-1 a{
+      text-decoration: none;
+       color:black ;
+  }
+  #btnscrollToTop{
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       background-color:#136cef;
+       box-shadow: 0 0 10px rgba(0,0,0,0,25);
+       color: white;
+       border: none;
+       outline: none;
+       cursor: pointer;
+  }
+  #btnscrollToTop:active{
+      background: #4185eb;
+  }
